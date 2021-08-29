@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 
-/* apply styles to <header> */
+/***********  Header Style Start  **************/
 header {
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+/***********  Header Style End  **************/
 
+/***********  Footer Style Start  **************/
 footer {
     display: flex;
     justify-content: space-between;
@@ -75,8 +77,9 @@ footer a {
 section {
     padding: 60px;
 }
+/***********  Footer Style End  **************/
 
-/* Hero Style Start */
+/***********  Hero Style Start  **************/
 .hero { 
     display: flex;
     justify-content: center;
@@ -85,7 +88,6 @@ section {
     background-size: cover;
     background-position: center;
 }
-/*  Hero Style End  */
 
 .hero-cta {
     width: 35%;
@@ -143,7 +145,9 @@ h3 {
     font-size: 16px;
     padding: 10px 20px;
 }
+/***********  Hero Style End  **************/
 
+/***********  What We Do Start **************/
 .intro p {
     text-align: center;
     line-height: 1.7;
@@ -170,38 +174,61 @@ h3 {
 .secondary-border {
     border-color: #39a6b2;
 }
+/***********  What We Do End  **************/
 
+/***********  What You Do Start **************/
 .steps {
     background: #fce138;
 }
 
-.steps div {
-    margin-bottom: 80px;
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+.step h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+}
+
+.step-text {
+    flex: 12;
+}
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
-.steps span {
-    font-size: 38px;
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.trainers {
+.step-image {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
+.step-image img {
+    max-width: 100%;
+}
+/***********  What You Do End  **************/
+
+/***********  Trainers Start  **************/
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -235,7 +262,7 @@ h3 {
     font-size: 17px;
     line-height: 1.3;
 }
-
+/***********  Trainers End  **************/
 
 /***********   REACH OUT STYLES START    *********/
 .contact {
