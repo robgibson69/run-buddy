@@ -12,3 +12,5 @@ https://robgibson69.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Rob Gibson
+
+### ©️2019 Run Buddy, Inc 
